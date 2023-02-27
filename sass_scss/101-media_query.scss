@@ -1,0 +1,12 @@
+// Font size 20px to h1 tags
+// Font size 14px to h1 tags, when your screen width is smaller than 320px
+
+$media-mobile-sm: "screen and (max-width : 320px)";
+
+h1{
+    font-size: 20px;
+    @media #{$media-mobile-sm} {
+        font-size: 14px;
+      }
+}
+

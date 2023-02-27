@@ -1,0 +1,15 @@
+// The text color #3D3D3D to the HTML tags body and p
+// The background color #6D6D6D to the HTML tags body and h2
+$col-text:#3D3D3D;
+$col-bg:#6D6D6D;
+body {
+    color: $col-text;
+    background-color: $col-bg;}
+  
+  p {
+    color: $col-text}
+    
+ h2 {
+    background-color: $col-bg;
+ }
+
